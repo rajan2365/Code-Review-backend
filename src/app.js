@@ -5,7 +5,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: "https://code-review-ten-zeta.vercel.app/", 
+  origin: "https://code-review-ten-zeta.vercel.app", 
   methods: ["GET", "POST"],
   credentials: true
 }));
